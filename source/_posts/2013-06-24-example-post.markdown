@@ -7,7 +7,9 @@ comments: true
 categories: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel adipiscing nisl. Curabitur faucibus luctus dolor porta sollicitudin. Duis non ornare velit. Donec quam est, consequat sed convallis vitae, pharetra ut ipsum. Mauris fringilla vestibulum tortor, eu pretium sem. Nulla facilisi. Maecenas purus nulla, sodales eget est nec, rutrum malesuada neque. Mauris consectetur enim non lacus vehicula, et adipiscing libero sodales. Sed at purus nec orci egestas tincidunt in sed odio. Aenean placerat iaculis viverra. Aenean nec aliquam ligula. Aenean sagittis aliquet sapien, vel fermentum velit malesuada a.
+### Welcome!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel adipiscing nisl. Curabitur faucibus luctus dolor porta sollicitudin. Duis non ornare velit. [Donec quam est](https://www.google.com/), consequat sed convallis vitae, pharetra ut ipsum. Mauris fringilla vestibulum tortor, eu pretium sem. Nulla facilisi. Maecenas purus nulla, sodales eget est nec, rutrum malesuada neque. Mauris consectetur enim non lacus vehicula, et adipiscing libero sodales. Sed at purus nec orci egestas tincidunt in [sed odio](http://blog.getlua.com/). Aenean placerat iaculis viverra. Aenean nec aliquam ligula. Aenean sagittis aliquet sapien, vel fermentum velit malesuada a.
 
 ``` ruby An If-Statement
 if boolean?
@@ -19,9 +21,11 @@ end
 
 Morbi lobortis, neque sit amet consequat venenatis, enim est interdum justo, gravida sollicitudin ligula enim a mi. Praesent iaculis quam in placerat suscipit. Maecenas ornare faucibus euismod. Quisque eget ipsum lectus. Maecenas a mauris suscipit, venenatis eros a, cursus libero. Sed aliquet sapien eros, ut mollis mi elementum a. Quisque quis risus dignissim, tincidunt ante non, viverra enim. Sed consectetur lacinia tincidunt. Praesent sed dolor vel tellus varius vulputate. Sed aliquet dolor nec tellus venenatis tempus. Morbi rhoncus pretium aliquam. Nulla sapien dolor, accumsan et malesuada eget, ornare vel quam. Proin id diam sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tempor molestie magna, sit amet sagittis est aliquet ultricies.
 
-<!-- more -->
+### More Things!
 
 Ut in massa ut eros commodo convallis. In id rutrum sem. Pellentesque scelerisque faucibus massa. Praesent elementum massa cursus turpis faucibus, non elementum leo faucibus. Nulla quis leo laoreet, pretium dolor non, feugiat lectus. Pellentesque quis mi eu metus imperdiet dignissim. Curabitur sit amet nibh et felis rutrum congue in eu metus. In ultrices eget dolor a dignissim. Sed non augue vulputate, elementum tortor sit amet, tincidunt diam. Aenean condimentum iaculis dui sit amet porttitor.
+
+<!-- more -->
 
 {% gist 1203641 %}
 
