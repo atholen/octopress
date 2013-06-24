@@ -1,2 +1,19 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+header {
+  div#logo {
+    img {
+      width: 200px;
+      margin-top: -30px;
+      margin-left: -35px;
+      margin-right: -24px;
+    }
+  }
+  h1.title {
+    font-size: 2.95em;
+  }
+  h2.subtitle {
+    margin: -20px 0 5px 0;
+  }
+}
