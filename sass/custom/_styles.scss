@@ -28,3 +28,15 @@ a:visited {
 a:hover {
   color: lighten( $link-color, 10% );
 }
+
+aside.sidebar:hover {
+  a {
+  color: $link-color;
+  }
+  a:visited {
+    color: darken( $link-color, 10% );
+  }
+  a:hover {
+    color: lighten( $link-color, 10% );
+  }
+}
