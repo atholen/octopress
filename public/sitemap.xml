@@ -2,15 +2,15 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yoursite.com/blog/2013/06/24/example-post/</loc>
-        <lastmod>2013-06-24T18:54:07-04:00</lastmod>
+        <lastmod>2013-06-25T10:36:30-04:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-06-24T18:54:07-04:00</lastmod>
+        <lastmod>2013-06-25T10:36:30-04:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/</loc>
-        <lastmod>2013-06-24T18:54:07-04:00</lastmod>
+        <lastmod>2013-06-25T10:36:30-04:00</lastmod>
     </url>
     <url>
         <loc>http://yoursite.com/robots.txt</loc>

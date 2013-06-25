@@ -4,7 +4,7 @@ title: "Example Post"
 date: 2013-06-24 16:13
 author: "Albert Tholen"
 comments: true
-categories: 
+categories: [code, welcome, example]
 ---
 
 ### Welcome!
