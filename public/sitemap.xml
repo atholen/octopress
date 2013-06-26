@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://devblog.getlua.com/blog/2013/06/24/example-post/</loc>
+        <loc>http://engineering.getlua.com/blog/2013/06/24/example-post/</loc>
         <lastmod>2013-06-26T11:17:36-04:00</lastmod>
     </url>
     <url>
-        <loc>http://devblog.getlua.com/blog/2013/06/25/my-latest-post/</loc>
+        <loc>http://engineering.getlua.com/blog/2013/06/25/my-latest-post/</loc>
         <lastmod>2013-06-26T11:17:36-04:00</lastmod>
     </url>
     <url>
-        <loc>http://devblog.getlua.com/blog/archives/</loc>
+        <loc>http://engineering.getlua.com/blog/archives/</loc>
         <lastmod>2013-06-26T11:17:36-04:00</lastmod>
     </url>
     <url>
-        <loc>http://devblog.getlua.com/</loc>
+        <loc>http://engineering.getlua.com/</loc>
         <lastmod>2013-06-26T11:18:15-04:00</lastmod>
     </url>
     <url>
-        <loc>http://devblog.getlua.com/robots.txt</loc>
+        <loc>http://engineering.getlua.com/robots.txt</loc>
         <lastmod>2013-06-26T10:25:20-04:00</lastmod>
     </url>
 </urlset>

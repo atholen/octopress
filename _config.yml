@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://devblog.getlua.com
-title: The Developers' Blog
+url: http://engineering.getlua.com
+title: The Lua Engineering Blog
 subtitle: Projects and Insights from the Engineers working at Lua
 author: "Lua Technologies, LLC"
 simple_search: http://google.com/search
