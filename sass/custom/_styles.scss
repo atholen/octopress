@@ -2,14 +2,31 @@
 // Add styles here to make changes without digging in too much
 
 html {
-  background: #f8f8f8;
+  // background: #fafafa;
+  background: #222 url('/images/noise.png?1372256720') top left;
 }
 
 body > header {
-  text-align: center;
+  // text-align: center;
+  padding-bottom: 1.8em;
+  h2 {
+    font-size: 0.8em;
+    margin: 0 0 0 0;
+  }
 }
 
 body > nav {
+  ul {
+    li a {
+      text-shadow: none;
+    } 
+    li+li{
+      border-left: none;
+      a {
+        border-left: none;
+      }
+    } 
+  }
   form .search {
     width: 150px;
   }
@@ -19,5 +36,16 @@ body > footer {
   margin-bottom: 0em;
   p {
     text-align: center;
+  }
+}
+
+article header {
+  padding-top: 0em;
+  margin-bottom: 1.2em;
+  h1 {
+    margin-bottom: 0.2em;
+  }
+  p.meta {
+    position: relative;
   }
 }
