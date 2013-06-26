@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: welcome | The Lua Engineering Blog]]></title>
+  <title><![CDATA[Category: welcome | ENGINEERING BLOG]]></title>
   <link href="http://engineering.getlua.com/blog/categories/welcome/atom.xml" rel="self"/>
   <link href="http://engineering.getlua.com/"/>
-  <updated>2013-06-26T18:08:17-04:00</updated>
+  <updated>2013-06-26T18:59:47-04:00</updated>
   <id>http://engineering.getlua.com/</id>
   <author>
     <name><![CDATA[Lua Technologies, LLC]]></name>

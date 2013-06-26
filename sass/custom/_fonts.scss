@@ -6,6 +6,8 @@
 //$serif: "Baskerville", serif;
 //$mono: "Courier", monospace;
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
 @font-face {
     font-family: 'museo_sans_500regular';
     src: url('/font/MuseoSans_500-webfont.eot');
@@ -20,9 +22,20 @@
 $sans: "museo_sans_500regular";
 
 $heading-font-family: "Verdana", sans-serif;
-$header-title-font-family: "museo_sans_500regular", "Futura", sans-serif;
+// $header-title-font-family: "museo_sans_500regular", "Futura", sans-serif;
+$header-title-font-family: "Raleway", sans-serif;
 // $header-subtitle-font-family: "Futura", sans-serif;
 $header-subtitle-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+
+body {
+  font-family: $sans;
+}
+
+body > header h1 {
+  letter-spacing: 0.2em;
+  // font-size: 1.2em;
+  line-height: 1.0em;
+}
 
 body > nav ul li {
   font-size: 0.9em;
@@ -42,7 +55,7 @@ body > nav ul li {
       font-size: 0.7em;
       span.fn {
         color: $lua-red;
-        text-transform: uppercase;
+        // text-transform: uppercase;
       }
     }
   }
