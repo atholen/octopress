@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: happiness | The Developers' Blog]]></title>
-  <link href="http://yoursite.com/blog/categories/happiness/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2013-06-25T15:17:45-04:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://devblog.getlua.com/blog/categories/happiness/atom.xml" rel="self"/>
+  <link href="http://devblog.getlua.com/"/>
+  <updated>2013-06-26T11:54:30-04:00</updated>
+  <id>http://devblog.getlua.com/</id>
   <author>
     <name><![CDATA[Lua Technologies, LLC]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Latest Post]]></title>
-    <link href="http://yoursite.com/blog/2013/06/25/my-latest-post/"/>
+    <link href="http://devblog.getlua.com/blog/2013/06/25/my-latest-post/"/>
     <updated>2013-06-25T15:12:00-04:00</updated>
-    <id>http://yoursite.com/blog/2013/06/25/my-latest-post</id>
+    <id>http://devblog.getlua.com/blog/2013/06/25/my-latest-post</id>
     <content type="html"><![CDATA[<h3>Economy</h3>
 
 <p>In this first and longest chapter, Thoreau outlines his project: a two-year, two-month, and two-day stay at a cozy, &ldquo;tightly shingled and plastered,&rdquo; English-style 10' × 15' cottage in the woods near Walden Pond. He does this, he says, to illustrate the spiritual benefits of a simplified lifestyle. He easily supplies the four necessities of life (food, shelter, clothing, and fuel) with the help of family and friends, particularly his mother, his best friend, and Mr. and Mrs. Ralph Waldo Emerson. The latter provided Thoreau with a work exchange – he could build a small house and plant a garden if he cleared some land on the woodlot and did other chores while there. Thoreau meticulously records his expenditures and earnings, demonstrating his understanding of &ldquo;economy,&rdquo; as he builds his house and buys and grows food. For a home and freedom, he spent a mere $28.12½, in 1845 (about $863 in today&rsquo;s money). At the end of this chapter, Thoreau inserts a poem, &ldquo;The Pretensions of Poverty,&rdquo; by seventeenth-century English poet Thomas Carew. The poem criticizes those who think that their poverty gives them unearned moral and intellectual superiority. The chapter is filled with figures of practical advice, facts, big ideas about individualism versus social existence&hellip;manifesto of social thought and meditations on domestic management. Much attention is devoted to the skepticism and wonderment with which townspeople greeted both him and his project as he tries to protect his views from those of the townspeople who seem to view society as the only place to live. He recounts the reasons for his move to Walden Pond along with detailed steps back to the construction of his new home (methods, support, etc.).</p>
