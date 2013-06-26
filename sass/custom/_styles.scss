@@ -4,3 +4,20 @@
 html {
   background: #f8f8f8;
 }
+
+body > header {
+  text-align: center;
+}
+
+body > nav {
+  form .search {
+    width: 150px;
+  }
+}
+
+body > footer {
+  margin-bottom: 0em;
+  p {
+    text-align: center;
+  }
+}
