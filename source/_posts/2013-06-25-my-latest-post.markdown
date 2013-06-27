@@ -2,7 +2,7 @@
 layout: post
 title: "My Latest Post"
 date: 2013-06-25 15:12
-author: Albert Tholen
+author: [Albert Tholen]
 comments: true
 categories: [faith, love, happiness, sorrow, code]
 ---

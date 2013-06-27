@@ -2,7 +2,7 @@
 layout: post
 title: "Example Post"
 date: 2013-06-24 16:13
-author: "Albert Tholen"
+author: [Albert Tholen]
 comments: true
 categories: [code, welcome, example]
 ---

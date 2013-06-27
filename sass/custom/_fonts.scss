@@ -7,6 +7,7 @@
 //$mono: "Courier", monospace;
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:200);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
 
 @font-face {
     font-family: 'museo_sans_500regular';
@@ -27,8 +28,10 @@ $header-title-font-family: "Raleway", sans-serif;
 // $header-subtitle-font-family: "Futura", sans-serif;
 $header-subtitle-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 
-body {
-  font-family: $sans;
+$serif: "Lora", "PT Serif", "Georgia", serif;
+
+body p {
+  font-family: $serif;
 }
 
 body > header h1 {
@@ -37,15 +40,42 @@ body > header h1 {
   line-height: 1.0em;
 }
 
-body > nav ul li {
-  font-size: 0.9em;
+body > nav {
+  ul li {
+    font-size: 0.9em;
+  }
 }
 
-#content .blog-index article h1, #content .blog-index article h2, #content .blog-index article h3 {
-  font-weight: lighter;
-}
+// #content .blog-index article h1, #content .blog-index article h2, #content .blog-index article h3 {
+//   font-weight: lighter;
+// }
 
 #content .blog-index article {
+  header {
+    h1 {
+      font-size: 1.8em;
+    }
+    p.meta {
+      text-transform: none;
+      font-size: 0.7em;
+      span.fn {
+        color: $lua-red;
+        // text-transform: uppercase;
+      }
+    }
+  }
+  p {
+    font-size: 0.85em;
+    line-height: 1.35em;
+  }
+}
+
+#content article h1, #content article h2, #content article h3 {
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+#content article {
   header {
     h1 {
       font-size: 1.8em;
