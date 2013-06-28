@@ -7,32 +7,41 @@
 //$mono: "Courier", monospace;
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:200);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+// @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,400italic);
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300);
 
-@font-face {
-    font-family: 'museo_sans_500regular';
-    src: url('/font/MuseoSans_500-webfont.eot');
-    src: url('/font/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/font/MuseoSans_500-webfont.woff') format('woff'),
-         url('/font/MuseoSans_500-webfont.ttf') format('truetype'),
-         url('/font/MuseoSans_500-webfont.svg#museo_sans_500regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'museo_sans_500regular';
+//     src: url('/font/MuseoSans_500-webfont.eot');
+//     src: url('/font/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('/font/MuseoSans_500-webfont.woff') format('woff'),
+//          url('/font/MuseoSans_500-webfont.ttf') format('truetype'),
+//          url('/font/MuseoSans_500-webfont.svg#museo_sans_500regular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
-$sans: "museo_sans_500regular";
+// $sans: "museo_sans_500regular";
 // $sans: "Verdana", sans-serif;
+$sans: "Lato", "Verdana", sans-serif;
+// $sans: "Open Sans", "Verdana", sans-serif;
 
-$heading-font-family: "Verdana", sans-serif;
+// $heading-font-family: "Verdana", sans-serif;
+$heading-font-family: $sans;
 // $header-title-font-family: "museo_sans_500regular", "Futura", sans-serif;
 $header-title-font-family: "Raleway", sans-serif;
 // $header-subtitle-font-family: "Futura", sans-serif;
 $header-subtitle-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 
-$serif: "Lora", "PT Serif", "Georgia", serif;
+// $serif: "Lora", "PT Serif", "Georgia", serif;
+
+// $heading-font-family: $serif;
 
 body p {
-  font-family: $serif;
+  // font-family: $serif;
+  font-family: $sans;
+  // font-weight: lighter;
 }
 
 body > header h1 {
@@ -67,7 +76,7 @@ body > footer {
     }
   }
   p {
-    font-size: 0.85em;
+    font-size: 0.80em;
     line-height: 1.35em;
   }
   a[rel=full-article] {
