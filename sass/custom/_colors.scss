@@ -11,7 +11,8 @@ $page-bg: $everything-bg;
 $header-bg: $everything-bg;
 $main-bg: $everything-bg;
 
-$title-color: #222;
+// $title-color: #222;
+$title-color: darken( #1180C0, 5 );
 // $title-color: #fbfbfb;
 $subtitle-color: $lua-red;
 
@@ -22,7 +23,8 @@ $nav-border-top: darken($nav-bg, 25) !default;
 // $nav-border-bottom: #f0f0f0;
 $nav-color: #6f6f6f !default;
 // $nav-color: #f0f0f0;
-$nav-color-hover: darken($nav-color, 25) !default;
+// $nav-color-hover: darken($nav-color, 25) !default;
+$nav-color-hover: $title-color;
 
 $footer-bg: $everything-bg !default;
 $footer-bg-back: $footer-bg;
@@ -30,7 +32,8 @@ $footer-bg-back: $footer-bg;
 // $footer-color-hover: lighten($footer-color, 10) !default;
 
 $link-color: $lua-red;
-$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 10) !default;
+// $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 10) !default;
+$link-color-hover: $title-color;
 $link-color-visited: adjust-color($link-color, $hue: 10, $lightness: -4) !default;
 
 $text-color: #282828 !default;
