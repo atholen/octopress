@@ -73,7 +73,6 @@ module Jekyll
         dir = self.config['author_dir'] || 'authors'      
         self.posts.each do |post|
           post_authors = post.data["author"]
-          puts dir, post_authors, post_authors.length
           post_authors.each do |author|              
             self.write_author_index(File.join(dir, author.downcase.gsub(" ","")), author)
           end
@@ -113,7 +112,6 @@ module Jekyll
     def author_links(authors)
       dir = @context.registers[:site].config['author_dir']
       authors = authors.map do |author|
-        puts "HERE--", dir, author, "--HERE"
         "<a class='author' href='/#{dir}/#{author.downcase.gsub(" ","")}/'>#{author}</a>"
       end
       case authors.length

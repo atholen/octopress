@@ -51,20 +51,7 @@ body > nav {
 body > footer {
   margin-bottom: 0em;
   p {
-    text-align: center;
-    // a {
-    //   color: #9c9c9c;
-    // }
-    // a:hover {
-    //   color: lighten( #9c9c9c, 10);
-    // }
-    // a:active {
-    //   color: lighten( #9c9c9c, 20);
-    // }
-    // a:visited {
-    //   color: darken( #9c9c9c, 10);
-    // }
-  }
+    text-align: center;  }
 }
 
 #content {
@@ -95,5 +82,31 @@ body > footer {
     }
     h2 { padding-top: 0em; }
     h2, h3, h4 { background: none; }
+  }
+  #blog-archive.author {
+    article {
+      padding-top: 0em;
+      header {
+        background: none;
+        h1 {
+          display: inline;
+          color: $text-color;
+          margin-bottom: .3em;
+          font-size: 1.5em;
+          a {
+            @include hover-link;
+            color: inherit;
+            &:hover { color: $link-color-hover; }
+            font-weight: normal;
+            display: inline-block;
+          }
+        }
+        p {
+          display: inline;
+        }
+      }
+      .entry-content { display: none; }
+      footer { display: none; }
+    }
   }
 }
