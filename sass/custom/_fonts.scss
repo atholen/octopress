@@ -21,6 +21,7 @@
 }
 
 $sans: "museo_sans_500regular";
+// $sans: "Verdana", sans-serif;
 
 $heading-font-family: "Verdana", sans-serif;
 // $header-title-font-family: "museo_sans_500regular", "Futura", sans-serif;
@@ -47,6 +48,10 @@ body > nav {
   }
 }
 
+body > footer {
+  p { font-family: $sans; }
+}
+
 #content .blog-index article {
   header {
     h1 {
@@ -55,15 +60,18 @@ body > nav {
     p.meta {
       text-transform: none;
       font-size: 0.7em;
-      span.fn {
+      // span.fn {
         // color: $lua-red;
         // text-transform: uppercase;
-      }
+      // }
     }
   }
   p {
     font-size: 0.85em;
     line-height: 1.35em;
+  }
+  a[rel=full-article] {
+    font-family: $sans;
   }
 }
 
@@ -72,22 +80,31 @@ body > nav {
   font-size: 1.4em;
 }
 
-#content article {
-  header {
-    h1 {
-      font-size: 1.8em;
-    }
-    p.meta {
-      text-transform: none;
-      font-size: 0.7em;
-      span.fn {
-        color: $lua-red;
-        // text-transform: uppercase;
+#content {
+  article {
+    header {
+      h1 {
+        font-size: 1.8em;
+      }
+      p.meta {
+        text-transform: none;
+        font-size: 0.7em;
+        span.fn {
+          color: $lua-red;
+          // text-transform: uppercase;
+        }
       }
     }
+    p {
+      font-size: 0.85em;
+      line-height: 1.35em;
+    }
+    footer {
+      font-family: $sans;
+      p.meta { font-family: $sans; }
+    }
   }
-  p {
-    font-size: 0.85em;
-    line-height: 1.35em;
+  .pagination a {
+    font-family: $sans;
   }
 }
