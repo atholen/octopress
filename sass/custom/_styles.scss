@@ -3,12 +3,10 @@
 
 html {
   background: #fdfdfd url('/images/noise.png?1372256720') top left;
-  // background: #222 url('/images/noise.png?1372256720') top left;
 }
 
 body > header {
   background: #fdfdfd url('/images/noise.png?1372256720') top left;
-  // background: #222 url('/images/noise.png?1372256720') top left;
   padding-bottom: 1.0em;
   padding-top: 1.0em;
   div.logo {
@@ -31,7 +29,6 @@ body > header {
 }
 
 body > nav {
-  // border: none;
   ul {
     li a {
       text-shadow: none;
@@ -43,9 +40,14 @@ body > nav {
       }
     } 
   }
-  form .search {
-    width: 150px;
-  }
+}
+
+body > nav {
+    @media only screen and (min-width: 550px) {
+      ul {
+        padding-top: 0;
+      }
+    }
 }
 
 body > footer {
@@ -55,6 +57,7 @@ body > footer {
 }
 
 #content {
+  aside.sidebar { display: none; }
   .blog-index article {
     padding-top: 1.5em;
     header {
